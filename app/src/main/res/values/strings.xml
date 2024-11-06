@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="empty_image_warning">Pilihlah Image Terlebih Dahulu</string>
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="riwayat_scan">Riwayat Scan</string>
+    <string name="Lorem_Ipsum">Lorem Ipsum Dolor ...</string>
+    <string name="lihat_riwayat_scan">Lihat Riwayat Scan</string>
+    <string name="cek_berita_kanker_terkini">Cek Berita Kanker Terkini</string>
+    <string name="asclepius_deteksi_kanker">Asclepius App Deteksi Kanker</string>
+    <string name="berita_kanker">Berita Kanker</string>
+    <string name="hasil_analisis">Hasil Analisis: %s</string>
+</resources>
