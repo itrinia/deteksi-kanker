@@ -51,12 +51,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BCD4"
         android:text="@string/gallery"
-        android:backgroundTint="#FF0072"
-        app:layout_constraintTop_toBottomOf="@id/previewImageView"
+        app:layout_constraintEnd_toStartOf="@id/analyzeButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/analyzeButton" />
+        app:layout_constraintTop_toBottomOf="@id/previewImageView" />
 
     <Button
         android:id="@+id/analyzeButton"
@@ -65,25 +64,23 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BCD4"
         android:text="@string/analyze"
-        android:backgroundTint="#FF0072"
-        app:layout_constraintTop_toBottomOf="@id/previewImageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/galleryButton" />
+        app:layout_constraintStart_toEndOf="@id/galleryButton"
+        app:layout_constraintTop_toBottomOf="@id/previewImageView" />
 
     <Button
         android:id="@+id/newsButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BCD4"
         android:text="@string/cek_berita_kanker_terkini"
-        android:backgroundTint="#FF0072"
-        app:layout_constraintTop_toBottomOf="@id/galleryButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/galleryButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
